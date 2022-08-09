@@ -1,38 +1,133 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.title{
+  background-color: rgb(119, 151, 161);
+  height: auto;
+  width: 100%;  
+  padding-top: 0.2em;
+  margin: auto;
+  padding-left: 15%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+.main{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 70%;
+  padding:  2em 8em;
+  background-color: rgb(250, 245, 234);
+
+}
+.draw-number{
+  width: 2em;
+  margin-right: 1em;
+  font-size: 1.5em;
+  display: inline;
+}
+.draw-number:focus{
+  width: 2.1em;
+  height: 1.3em;
+  margin-right: 1em;
+  font-size: 1.5em;
+  display: inline;
+  border: 1px solid rgb(141, 210, 233);
+}
+.special-number{
+  display: inline;
+  margin-left: 1em;
+}
+
+.spend-how-much{
+  margin-top: 2em;
+  padding: 0.4em;
+  font-size: 1em;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid rgb(42, 78, 75);
+  border-radius: 4px;
+}
+.spend-how-much:hover{
+  background-color: rgb(167, 186, 221);
+}
+.submit-button{
+  display: block;
+  margin-top: 2em;
+  width: 100%;
+  height: 2em;
+  font-size: 1.5em;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid rgb(42, 78, 75);
+  border-radius: 8px;
+}
+
+.submit-button:hover{
+  background-color: rgb(167, 186, 221);
+}
+
+.spent-amount{
+  font-size: 1.5em;
+}
+.bought-number-field{
+  width: 15em;
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+
+.final-result{
+  margin: 1em;
+}
+
+.arr-number{
+  font-size: 1.2em;
+  text-align: center;
+  width: 2em;
+  justify-content: center;
+}
+.money{
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.good-number{
+  color: green;
+  font-size: 1.2em;
+  text-align: center;
+  width: 2em;
+}
+
+.good-special-number{
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  width: 2em;
+}
+
+.result-container{
+  display: flex;
+  border: 1px solid black;
+  height: 2em;
+}
+
+.arr{
+  display: flex;
+  height: 2em;
+  border-bottom: 1px dotted black;
+  margin: auto;
+  padding-top: 0.5em;
+}
+.prize-amount{
+  margin-left : auto;
+  margin-right: auto;
+  font-size: 1.2em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.prize-list-hidden{
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prize-list-shown{
+  display: block;
 }
