@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.title{
+  background-color: rgb(119, 151, 161);
+  height: auto;
+  width: 100%;  
+  padding-top: 0.2em;
+  margin: auto;
+  padding-left: 15%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+.main{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  width: 70%;
+  padding:  2em 8em;
+  background-color: rgb(250, 245, 234);
+}
+
+.draw-history-button{
+  display: block;
+  margin-top: 1.5em;
+  padding: 1em;
+  width: auto;
+  height: auto;
+  font-size: 1em;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid rgb(42, 78, 75);
+  border-radius: 8px;
+}
+
+.resultHistoryTitle{
+  display: flex;
+  height: 3em;
+  margin-top: 0.7em;
+  padding-right: 1em;
+  justify-content: center;
+  background-color: rgb(167, 189, 209);
+  align-items: center;
+  border-radius: 7px;
+
+}
+
+.resultHistoryRow:nth-child(odd){
+  display: flex;
+  height: 3em;
+  margin-top: 0.7em;
+  padding-right: 1em;
+  justify-content: center;
+  background-color: rgb(90, 130, 168);
+  box-sizing: border-box;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.resultHistoryRow:nth-child(odd):hover{
+  border: 2px solid rgb(81, 81, 255);
+}
+.resultHistoryRow:nth-child(even){
+  display: flex;
+  box-sizing: border-box;
+  height: 3em;
+  margin-top: 1em;
+  padding-right: 1em;
+  justify-content: center;
+  background-color: rgb(124, 181, 235);
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.resultHistoryRow:nth-child(even):hover{
+  border: 2px solid rgb(81, 81, 255);
+}
+.resultHistoryCell{
+  text-align: center;
+  width: 30%;
+  height: fit-content;
+  border-radius: 7px;
+  font-size: 1.2em;
+}
+.draw-number-container{
+  display: block;
+  margin-top: 1.5em
+}
+.draw-number{
+  width: 2em;
+  margin-right: 1em;
+  font-size: 1.5em;
+  display: inline;
+}
+.draw-number:focus{
+  width: 2.1em;
+  height: 1.3em;
+  margin-right: 1em;
+  font-size: 1.5em;
+  display: inline;
+  border: 1px solid rgb(141, 210, 233);
+}
+.special-number{
+  display: inline;
+  margin-left: 1em;
+}
+
+.spend-how-much{
+  margin-top: 2em;
+  padding: 0.4em;
+  font-size: 1em;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid rgb(42, 78, 75);
+  border-radius: 4px;
+}
+.spend-how-much:hover{
+  background-color: rgb(167, 186, 221);
+}
+.submit-button{
+  display: block;
+  margin-top: 2em;
+  width: 100%;
+  height: 2em;
+  font-size: 1.5em;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid rgb(42, 78, 75);
+  border-radius: 8px;
+}
+
+.submit-button:hover{
+  background-color: rgb(167, 186, 221);
+}
+
+.spent-amount{
+  font-size: 1.5em;
+}
+.bought-number-field{
+  width: 15em;
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+
+.final-result{
+  margin: 1em;
+}
+
+.arr-number{
+  font-size: 1.2em;
+  text-align: center;
+  width: 2em;
+  justify-content: center;
+}
+.money{
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.good-number{
+  color: green;
+  font-size: 1.2em;
+  text-align: center;
+  width: 2em;
+}
+
+.good-special-number{
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  width: 2em;
+}
+
+.result-container{
+  display: flex;
+  border: 1px solid black;
+  height: 2em;
+}
+
+.arr{
+  display: flex;
+  height: 2em;
+  border-bottom: 1px dotted black;
+  margin: auto;
+  padding-top: 0.5em;
+}
+.prize-amount{
+  margin-left : auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.prize-list-hidden{
+  display: none;
+}
+
+.prize-list-shown{
+  display: block;
+}
